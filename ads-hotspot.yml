@@ -15,5 +15,5 @@
    - name: Add Dynamic Ads
      routeros_command:
        commands: /ip hotspot user profile
-       commands: add add-mac-cookie=no address-pool=dhcp_pool0 advertise=yes advertise-interval=0s advertise-timeout=never advertise-url=https://dharmasitepu.github.io/ keepalive-timeout=3m !mac-cookie-timeout name=TRIAL session-timeout=3m status-autorefresh=3m transparent-proxy=yes
+       commands: add add-mac-cookie=no address-pool=dhcp_pool0 advertise=yes advertise-interval=0s advertise-timeout=never advertise-url=https://dharmasitepu.github.io/ keepalive-timeout=never !mac-cookie-timeout name=TRIAL session-timeout=3m status-autorefresh=3m transparent-proxy=yes
 
