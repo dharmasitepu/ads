@@ -72,62 +72,6 @@ add action=passthrough chain=unused-hs-chain comment=\
     "place hotspot rules here" disabled=yes
 add action=masquerade chain=srcnat comment="masquerade hotspot network" \
     src-address=192.168.88.0/24
-/ip hotspot user
-add comment="===AGUNG===" disabled=yes mac-address=00:0A:F5:2F:BA:B4 name=\
-    agung@tina.com password=G2h2@hYpO@
-add comment="===ANGGI===" mac-address=E4:46:DA:EA:BC:6F name=anggi@tina.com \
-    password=u8i@&pOsK5
-add comment="===PUTRI===" name=putri@tina.com password=Hy8@@pUS4j
-add comment="===MAMAK===" mac-address=1C:77:F6:57:07:25 name=mamak@tina.com \
-    password=J@4YtP%zLs
-add comment="===BAPAK===" mac-address=18:D7:17:70:F1:01 name=bapak@tina.com \
-    password=Ug8Tgs%@9P
-add comment="===KOMPUTER===" mac-address=50:3E:AA:34:C4:C4 name=\
-    komputer@tina.com password=Ed#2@fHr9H
-add comment="===LAPTOP===" mac-address=F0:03:8C:9D:A5:C7 name=laptop@tina.com \
-    password=uYb%@gTdhJ
-add comment="===SERVER===" mac-address=00:27:15:61:09:AD name=\
-    server@mikhmon.007 password=mikhmon-server-007
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=wi8be password=\
-    72355 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=g67zn password=\
-    82472 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=y7ny7 password=\
-    55898 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=j7zz9 password=\
-    89583 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=3tahb password=\
-    65568 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=nby2h password=\
-    42889 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=kp4ds password=\
-    98882 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=cyz5z password=\
-    26743 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=wjues password=\
-    82572 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=2r44b password=\
-    57284 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=reg6p password=\
-    49438 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=bak9b password=\
-    56667 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=cm2tt password=\
-    84739 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=grz6y password=\
-    55678 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=guz3m password=\
-    47752 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=kwd7j password=\
-    59485 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=5s9gr password=\
-    43343 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=bdha3 password=\
-    87469 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=x4r3s password=\
-    54587 profile=Vocheran server=hotspot1
-add comment=up-496-09.04.20-Toko_Tina limit-uptime=3h name=ngb3z password=\
-    93987 profile=Vocheran server=hotspot1
 /ip service
 set www-ssl disabled=no
 /system clock
